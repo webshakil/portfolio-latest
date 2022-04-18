@@ -12,7 +12,7 @@ function Contact() {
 	const sendEmail = (e) => {
 	  e.preventDefault();
   
-	  emailjs.sendForm('service_obje94m', 'template_k3h1smf', form.current, 'Q24ps9UNUpdXCEn41')
+	  emailjs.sendForm(process.env.NEXT_PUBLIC_S_ID, process.env.NEXT_PUBLIC_T_ID, form.current, process.env.NEXT_PUBLIC_M_ID)
 		.then((result) => {
 			toast.success("Thansk for your email, Contact with you soon!!");
 			setUser_name("");
