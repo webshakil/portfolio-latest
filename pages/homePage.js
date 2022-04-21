@@ -56,16 +56,20 @@ function Home() {
 								
 							</div>
 							<br/>
-							<div className="tex-center pt-10">
-								<h1 className="font-bold text-3xl text-center">Hire me on Upwork</h1>
+						<div className="flex pt-10 justify-content-between">
+							<div className="">
+								<h1 className="font-bold text-3xl text-center ">Hire me on Upwork</h1>
 								<Link href="https://www.upwork.com/freelancers/~0120025f824d5325b4">
 									<a target="_blank"><Image src="/images/Upwork.png" alt="upwork" width="106px" height="106px" /></a>
 								</Link>
-								
-								
-								
-								
 							</div>
+							<div className="pl-10">
+								<h1 className="font-bold text-3xl text-center pb-6">Hire me on Fiveer</h1>
+								<Link href="https://www.fiverr.com/shakilcodingmon">
+									<a target="_blank"><Image  src="/images/fiverr.png" alt="upwork" width="100px" height="76px" /></a>
+								</Link>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
